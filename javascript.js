@@ -4,7 +4,7 @@ let tiempoDeEspera = 0;
 // Iterar desde 1 hasta 10 para simular los turnos
 for (let i = 1; i <= 10; i++) { 
     // Solicitar al usuario que ingrese su nombre para esperar el turno
-    let nombreIngresado = prompt("Ingresa tu nombre para esperar el turno");
+    const nombreIngresado = prompt("Ingresa tu nombre para esperar el turno");
 
     // Verificar si no se ingresó un nombre
     if (nombreIngresado === "") {
